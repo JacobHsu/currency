@@ -8,12 +8,18 @@
 https://dashboard.heroku.com/apps
 cteate new project `jacobhsu-currency` 
 
-.git config 
+.git config  add
 ```
 [remote "heroku"]
     url = https://git.heroku.com/jacobhsu-currency.git
     fetch = +refs/heads/*:refs/remotes/heroku/*
 ```
+
+Procfile
+```
+web: node index.js
+```
+
 
 Deploy using Heroku Git  
 
