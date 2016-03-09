@@ -20,6 +20,11 @@ Procfile
 web: node index.js
 ```
 
+index.js
+```
+app.listen(process.env.PORT || 5000);
+```
+
 
 Deploy using Heroku Git  
 
