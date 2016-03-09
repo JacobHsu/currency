@@ -11,7 +11,7 @@ cteate new project `jacobhsu-currency`
 .git config 
 ```
 [remote "heroku"]
-    url = https://git.heroku.com/jacob-nodejs.git
+    url = https://git.heroku.com/jacobhsu-currency.git
     fetch = +refs/heads/*:refs/remotes/heroku/*
 ```
 
@@ -22,4 +22,6 @@ Install the Heroku Toolbelt
 $ heroku login
 $ git push heroku master
 ```
+
+http://jacobhsu-currency.herokuapp.com/ 
 
