@@ -46,10 +46,15 @@ https://help.yahoo.com/kb/finance/SLN2310.html?impressions=true
 
 Syntax
 ---------
+Array.prototype.filter()  
+Array.prototype.map()  
+`fx.rate([ 'USDTWD', 'EURTWD', 'JPYTWD', 'CNYTWD' ])`  
+
 Array.prototype.map()  
 Array.prototype.join()  
 
 "USDTWD","EURTWD","JPYTWD","CNYTWD"  
+
 ```
 https://query.yahooapis.com/v1/public/yql?q=select * from yahoo.finance.xchange where pair in ("USDTWD","EURTWD","JPYTWD","CNYTWD")&format=json&env=store://datatables.org/alltableswithkeys
 ```
