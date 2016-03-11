@@ -2,10 +2,13 @@ var express = require('express');
 var app = express();
 var fx = require('./lib/currency');
 
-fx.rate('TWD').then(console.log);
-
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+    fx.rate('TWD').then(function(ret){
+        console.log(ret);
+        var d = new Date(); 
+        res.send(d+'<p>'+JSON.stringify(ret)+'</p>'); 
+    });
+
 });
 
 app.listen(process.env.PORT || 5000);
