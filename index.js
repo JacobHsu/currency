@@ -8,7 +8,6 @@ app.get('/', function (req, res) {
         var d = new Date(); 
         res.send(d+'<p>'+JSON.stringify(ret)+'</p>'); 
     });
-
 });
 
 app.listen(process.env.PORT || 5000);
