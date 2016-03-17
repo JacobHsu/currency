@@ -41,11 +41,18 @@ http://jacobhsu-currency.herokuapp.com/
 Reference 
 ---------
 
-https://help.yahoo.com/kb/finance/SLN2310.html?impressions=true
+https://github.com/you21979/node-yahoo-currency  
+https://github.com/pilwon/node-yahoo-finance  
 
+https://developer.yahoo.com/yql/console  
+
+[YQL yahoo.finance.xchange historical data](http://stackoverflow.com/questions/31606027/yql-yahoo-finance-xchange-historical-data)  
 
 Syntax
 ---------
+http://finance.yahoo.com/connection/currency-converter-cache?date=20160311  
+
+
 Array.prototype.filter()  
 Array.prototype.map()  
 `fx.rate([ 'USDTWD', 'EURTWD', 'JPYTWD', 'CNYTWD' ])`  
